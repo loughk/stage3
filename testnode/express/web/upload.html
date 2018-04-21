@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <body>
+        <form>
+            <input type="text" id="username" name="username"/>
+            <input type="text" id="psw" name="psw"/>
+            <input type="file" id="btnfile" name="btnfile"/>
+        </form>
+
+        <script type="text/javascript">
+            ;(function(){
+                var btnfile = document.getElementById('btnfile');
+                btnfile.onclick = function(){
+                    var data = new FormData();
+                    var username = document.getElementById('username').value;
+                    var psw = document.getElementById('psw').value;
+                    var files = document.getElementById('btnfile').files;
+
+                    data.append('username',username);
+                    data.append('psw',psw);
+
+                    for(var i = 0; i < files.length; i++){
+                        data.append("filename", files[i]);                
+                    }                
+
+                    var xhr = new XMLHttpRequest();
+                    xhr.open("POST","/upload");
+                    xhr.send(data);
+                }
+            })();
+
+            // ;jQuery(function($){
+            //     $('#btnfile').click(function(){
+            //         var data = new FormData();
+            //         data.append("username", document.querySelector('#username').value);
+            //         data.append("psw", document.querySelector('#psw').value);
+            //         let files = document.querySelector('[type=file]').files;
+            //         for(var i = 0; i < files.length; i++){
+            //             data.append("filename", files[i]);                
+            //         }
+            //         $.ajax({
+            //             'url': '/upload',
+            //             'type': 'post',
+            //             'data': data,
+            //             'contentType': false,
+            //             'processData': false,
+            //             'success': function(res){}
+            //         })
+            //     })
+            // });
+        </script>
+    </body>
+</html>

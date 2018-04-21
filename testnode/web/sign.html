@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css"></style>
+        <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    </head>
+    <body>
+        <input type="text" name="uname" id="uname" placeholder="用户名"/>
+        <input type="text" name="psw" id="psw" placeholder="密码"/>
+        <input type="button" name="btnup" id="btnup" value="注册"/>
+        <input type="button" name="btnin" id="btnin" value="登录"/>
+        <input type="button" name="btnout" id="btnout" value="登出"/>
+
+        <script type="text/javascript">
+            jQuery(function($){
+                var $uname = $('#uname');
+                var $psw = $('#psw');
+                var $btnup = $('#btnup');
+                var $btnin = $('#btnin');
+                var $btnout = $('#btnout');
+
+                $btnup.on('click',function(){
+                    var data = 'uname='+ $uname.val() +'&psw='+ $psw.val();
+                    $.ajax({
+                        'type': 'POST',
+                        'url': '/sign/signup',
+                        'data': data,
+                        'success': function(data){
+                            if(data.status){
+                                alert('注册成功');
+                            }else{
+                                alert('名字重复');
+                            }
+                        }
+                    });
+                });
+
+                $btnin.on('click',function(){
+                    var data = 'uname='+ $uname.val() +'&psw='+ $psw.val();
+                    $.ajax({
+                        'type': 'POST',
+                        'url': '/sign/signin',
+                        'data': data,
+                        'success': function(data){
+                            if(data.msg == 'signin'){
+                                alert('登录成功');
+                                window.location.href = 'chat.html';
+                            }else if(data.msg == 'repeat'){
+                                alert('已经登录');
+                                window.location.href = 'chat.html';
+                            }else if(data.msg == 'differ'){
+                                alert('不能同时登录多个帐号');
+                            }else if(data.msg == 'non'){
+                                alert('帐号不存在');
+                            }else if(data.msg == 'pswerr'){
+                                alert('密码错误');
+                            }else{
+                                alert('请重新注册');
+                            }
+                        }
+                    });
+                });
+
+                $btnout.on('click',function(){
+                    $.ajax({
+                        'type': 'POST',
+                        'url': '/sign/signout',
+                        'data': '',
+                        'success': function(data){
+                            if(data.status){
+                                alert('登出成功');
+                            }else{
+                                alert('请重新登出');
+                            }
+                        }
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

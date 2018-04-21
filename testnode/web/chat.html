@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css"></style>
+        <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="socket.io.js"></script>
+    </head>
+    <body>
+        <input type="button" name="btnout" id="btnout" value="登出"/>
+        <div id="room"></div>
+
+        <script type="text/javascript">
+            ;jQuery(function($){
+                var client = io.connect('ws://10.3.133.2:6655');
+
+                var id = String(parseInt(Math.random()*100)) + String((new Date()).getTime());
+                var person = {'id':id};
+                client.emit('serverConnect', JSON.stringify(person));
+                client.on('clientInit', function(peopleOl){
+                    peopleOl = JSON.parse(peopleOl);
+                    console.log(peopleOl);
+                });
+
+                var $btnout = $('#btnout');
+                $btnout.on('click',function(){
+                    client.emit('serverDiscon', JSON.stringify(person));
+                    $.ajax({
+                        'type': 'POST',
+                        'url': '/sign/signout',
+                        'data': '',
+                        'success': function(data){
+                            if(data.status){
+                                alert('登出成功');
+                                window.location.href = 'sign.html';
+                            }else{
+                                alert('请重新登出');
+                            }
+                        }
+                    });
+                });
+
+                client.on('clientDiscon', function(peopleOl){
+                    peopleOl = JSON.parse(peopleOl);
+                    console.log(peopleOl);
+                });
+                
+            });
+        </script>
+    </body>
+</html>
