@@ -24,7 +24,7 @@ app.all('*', function(req, res, next) {
     res.header("X-Powered-By",'3.2.1')
     if(req.method=="OPTIONS") {
       res.sendStatus(200);/*让options请求快速返回*/
-    } else{
+    }else{
       next();
     }
 });
@@ -36,21 +36,22 @@ app.use(bodyParser.urlencoded({extended:false}));
 routerSign.register(app,{'jwt':jwt,'utilMongo':utilMongo,'utilRes':utilRes});
 
 const filterJwt = function(req, res, next){
+    console.log(6);
     var token = req.headers['auth'];
     if(!token){
         res.send(utilRes(false,{},'unauth'));
     }else{
-        jwt.verify(token,'secret',function(jErr,jRes){
-            if(jErr){
-                res.send(utilRes(false, jErr, 'unauth'))
-            }else{
-                next();
-            };
-        });
+        var oldtoken = opt.jwt.decode(req.body.token,'secret');
+        var d = (new Date().getTime())/1000;
+        if(d >= oldtoken.exp){
+            next();
+        }else{
+            res.send(utilRes(false,{},'unauth'));
+        };
     };
 };
 app.use(filterJwt);
-routerMine.register(app,{'jwt':jwt,'utilMongo':utilMongo,'utilRes':utilRes});
+routerMine.register(app);
 
 
 
