@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            label{display:block;}
+            .btndel{cursor:pointer;}
+        </style>
+        <script type="text/javascript" src="../lib/vue.js"></script>
+    </head>
+    <body>
+        <div id="box" v-on:click="fnClick">
+            <form>
+                <label for="txtname">
+                    <span>姓名：</span>
+                    <input type="text" v-model="newone.name"/>
+                </label>
+                <label for="txtage">
+                    <span>年龄：</span>
+                    <input type="text" v-model="newone.age"/>
+                </label>
+                <label for="txtsex">
+                    <span>性别：</span>
+                    <select v-model="newone.sex">
+                        <!-- vue的建议：生成一个禁用的option选项 -->
+                        <option disabled value="">请选择</option>
+                        <option>男</option>
+                        <option>女</option>
+                    </select>
+                </label>
+                <label for="txtbtn">
+                    <input type="button" value="添加"/>
+                </label>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>姓名</th>
+                        <th>年龄</th>
+                        <th>性别</th>
+                        <th>删除</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="(e,i) in people">
+                        <td>{{e.name}}</td>
+                        <td>{{e.age}}</td>
+                        <td>{{e.sex}}</td>
+                        <td v-bind:class="classDel" v-bind:data-eid="i">删除</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script type="text/javascript">
+            var vm = new Vue({
+                el:'#box',
+                data:{
+                    newone:{
+                        name:'',
+                        age:'',
+                        sex:''
+                    },
+                    people:[{
+                        name:'夹克',
+                        age:'22',
+                        sex:'男'
+                    },{
+                        name:'罗西',
+                        age:'16',
+                        sex:'女'
+                    }],
+                    classDel:{
+                        btndel:true
+                    }
+                },
+                methods:{
+                    fnClick:function(e){
+                        var $that = this;
+                        var t = e.target;
+                        if(t.value == '添加'){
+                            // 引用的是同一个对象object啊。
+                            $that.people.push($that.newone);
+                            // 随便改成新对象。
+                            $that.newone = {name:'',age:'',sex:''};
+                        }else if(t.innerText == '删除'){
+                            $that.people.splice(t.dataset.eid,1);
+                        }
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>

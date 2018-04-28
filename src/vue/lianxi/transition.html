@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            *{padding:0;margin:0;}
+            ul,li{list-style:none;}
+    
+            #app{position:relative;width: 100px;height: 100px;}
+
+            ul{position:relative;width: 400px;height: 100px;}
+            .clali{float:left;width: 100px;height: 100px;}
+
+            .carousel-enter{opacity: 0;}
+            .carousel-enter-active{transition:all 1s;}
+        </style>
+        <script type="text/javascript" src="../lib/vue.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <cmpcarousel></cmpcarousel>
+        </div>
+
+
+        <script type="text/javascript">
+            // css动画，属性改变才会触发动画。
+            Vue.component('cmpcarousel',{
+                template:`
+                    <transition appear appear-class="carousel-enter" appear-active-class="carousel-enter-active">
+                        <ul>
+                            <li :class="clali" v-for="(v,i) in num" v-ranbg></li>
+                        </ul>
+                    </transition>
+                `,
+                data:function(){
+                    return {
+                        num:4
+                    };
+                },
+                computed:{
+                    'clali':function(){
+                        return {
+                            'clali':true
+                        };
+                    }
+                },
+                directives:{
+                    'ranbg':function(e){
+                        var str = '1234567890abcdef';
+                        var ranbg = '';
+                        for(var i = 0;i < 6;i++){
+                            ranbg += str.substr(parseInt(Math.random()*16),1);
+                        };
+                        e.style.backgroundColor = '#' + ranbg;
+                    }
+                }
+            });
+
+
+            var vm = new Vue({
+                el:'#app'
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            .bgred{background: #f00;}
+            .bggreen{background: #0f0;}
+        </style>
+        <script type="text/javascript" src="../lib/vue.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <p>{{vmnum}}</p>
+            <cmpcolor :cmpname="vmname" :cmpsex="vmsex">
+                <p>不覆盖渲染</p>
+                <p name="vmslot">组件</p>
+            </cmpcolor>
+
+            <cmpsome></cmpsome>
+        </div>
+
+        <script type="text/javascript">
+            // 以下封装是没必要的，因为原框架已经封装好名叫生命周期的处理方法。
+            function initCmpsome(v1){
+                // 全局注册组件，所有vue对象可用，要在生成vue对象前导入。
+                Vue.component('cmpsome',{
+                    template:'<p>{{k1}}</p>',
+                    data:function(){
+                        return {
+                            k1:v1
+                        }
+                    }
+                });
+            }
+            initCmpsome('全局注册组件'); 
+
+
+            var vm = new Vue({
+                el:'#box',
+                data:{
+                    'vmname':'son',
+                    'vmsex':'boy',
+                    'vmnum':0
+                },
+                methods:{},
+                components:{
+                    'cmpcolor':{
+                        /*props 组件自定义属性，可用于传参(data属性)。*/ 
+                        /*v-bind:is 绑定data属性，动态切换组件。*/ 
+                        /*slot 保留内容*/ 
+                        template:`
+                            <div>
+                                <slot name="vmslot"></slot>
+                                <p :style="stylecolor">{{cmpname}}&emsp;{{cmpsex}}</p>
+                                <input type="button" :value="color" @click="change" :class="classcolor"/>
+                                <cmp :is="color"></cmp>
+                                <slot></slot>
+                            </div>
+                        `,
+                        props:['cmpname','cmpsex'],
+                        data:function(){
+                            return {
+                                'color':'red'
+                            };
+                        },
+                        computed:{
+                            'classcolor':function(){
+                                return {
+                                    'bgred':this.color == 'red',
+                                    'bggreen':this.color == 'green'
+                                };
+                            },
+                            'stylecolor':function(){
+                                return {
+                                    'fontSize':'18px',
+                                    'color':(this.color == 'red') ? '#f00' : '#0f0'
+                                }
+                            }
+                        },
+                        methods:{
+                            'change':function(){
+                                if(this.color == 'red'){
+                                    this.color = 'green';
+                                    this.$root.vmnum = 1;
+                                }else{
+                                    this.color = 'red';
+                                    this.$root.vmnum = 0;
+                                }
+                            }
+                        },
+                        components:{
+                            'red':{
+                                template:'<p>red</p>'
+                            },
+                            'green':{
+                                template:'<p>green</p>'
+                            }
+                        }
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>
