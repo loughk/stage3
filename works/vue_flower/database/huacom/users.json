@@ -1,0 +1,7 @@
+{"_id":{"$oid":"5aea84da794f9f0630549ae6"},"rgtype":"email","uname":"aa@aa.com","upsw":"aaaaaa"}
+{"_id":{"$oid":"5aeabab3c3801c19a49387d9"},"rgtype":"email","uname":"bb@bb.com","upsw":"bbbbbb"}
+{"_id":{"$oid":"5aebb0b6b3a7a313981df953"},"rgtype":"phone","uname":"13444444444","userlist":[{"_id":{"$oid":"5aec24ff6e962829c4f5c5a6"},"types":"xianhua","name":"母爱","imgurl":"//img01.hua.com/uploadpic/newpic/9012092.jpg_220x240.jpg","content":"紫红色康乃馨9枝，粉色多头康乃馨10枝","price":178,"qty":2}]}
+{"_id":{"$oid":"5aebb0c5b3a7a313981df954"},"rgtype":"email","uname":"cc@cc.com","upsw":"cccccc"}
+{"_id":{"$oid":"5aed6e50466d540ef0f04777"},"rgtype":"phone","uname":"13458888888"}
+{"_id":{"$oid":"5aed6ea175b4f91ae41929e6"},"rgtype":"phone","uname":"15666666666","userlist":[{"_id":{"$oid":"5aec24ff6e962829c4f5c5a8"},"types":"xianhua","name":"忘情巴黎","imgurl":"//img01.hua.com/uploadpic/newpic/9012009.jpg_220x240.jpg","content":"名师设计 浪漫唯美","price":298,"qty":"4"}]}
+{"_id":{"$oid":"5aed83e44b29790aa4a1662b"},"rgtype":"phone","uname":"13668866666"}

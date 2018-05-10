@@ -1,0 +1,43 @@
+https://reactjs.org/docs/jsx-in-depth.html
+
+
+User-Defined Components Must Be Capitalized
+自定义组件名称首字母必须大写<ComponentUser/>
+
+
+不能直接以原生表达式作为react元素类型(组件名称)，而要将原生表达式转为首字母大写变量。
+以下方式的多组件引用中解决大写问题:
+import React from 'react';
+import { PhotoStory, VideoStory } from './stories';
+
+const components = {
+  photo: PhotoStory,
+  video: VideoStory
+};
+
+function Story(props) {
+  // Correct! JSX type can be a capitalized variable.
+  const SpecificStory = components[props.storyType];
+  return <SpecificStory story={props.story} />;
+}
+
+
+js表达式用{}
+
+
+react的props默认是true，即使undefined。
+<reactelement props1 /> == <reactelement props1={true} />
+
+props属性扩展{...other}
+
+props.children(会自动去空格)
+
+嵌套组件
+<container>
+	<cmp1/>
+	<cmp2>
+</container>
+
+条件组件
+Composition vs Inheritance
+https://reactjs.org/docs/composition-vs-i

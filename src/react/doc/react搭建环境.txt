@@ -1,0 +1,14 @@
+https://reactjs.org/docs/try-react.html
+
+react体验版_本地_CDN和链接：
+https://raw.githubusercontent.com/reactjs/reactjs.org/master/static/html/single-file-example.html
+
+环境搭建:
+自动版:Add React to a New App
+npm5.2.0+:npx create-react-app foldername → cd foldername → npm start
+
+手动版:Add React to an Existing App
+可选：
+组件管理工具package manager:Yarn or npm
+文件打包工具bundler: webpack or Browserify
+编译器compiler:Babel
