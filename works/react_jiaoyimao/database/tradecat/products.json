@@ -1,0 +1,786 @@
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 4,
+        "identMan" : true,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 94
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "红信号，解锁码忘了，懂得来",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGqY/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/89def5dc-9eff-41be-9da8-8000dbf6d9b9.jpg"
+        ],
+        "price" : 45,
+        "cost" : 45,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "女",
+        "帐号绑定" : "密码邮箱",
+        "商家在线" : "全天在线",
+        "描述" : "解锁码忘记了，不懂得别买"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 4,
+        "identMan" : true,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 90
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "刚买的，还没玩过",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGqY/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/78afd254-33b8-46b4-98dd-8b096443185f.jpg"
+        ],
+        "price" : 69,
+        "cost" : 69,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "女",
+        "帐号绑定" : "密码邮箱",
+        "商家在线" : "全天在线"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 0,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 0
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "刚玩了2小时",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/611fddff-f41d-485d-90ba-07dbad1af400.jpg"
+        ],
+        "price" : 110,
+        "cost" : 110,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "男",
+        "帐号绑定" : "密码邮箱",
+        "商家在线" : "全天在线",
+        "描述" : "帐号上还有30元钱，账号里有guabi，但是号子绝对没开过gua。"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 5,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 75
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "三无号，找回包赔",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/96d0d33e-5c1d-448d-8d97-a8f78ddd522c.jpg"
+        ],
+        "price" : 64,
+        "cost" : 64,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "女",
+        "帐号绑定" : "密码邮箱",
+        "商家在线" : "全天在线",
+        "描述" : "信誉出售"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 0,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 0
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "吃鸡帐号",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/96d0d33e-5c1d-448d-8d97-a8f78ddd522c.jpg"
+        ],
+        "price" : 66,
+        "cost" : 66,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "女",
+        "帐号绑定" : "密码邮箱，身份证",
+        "商家在线" : "全天在线",
+        "描述" : "一共只玩了10多个小时，不想玩了卖了回波血"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 4,
+        "identMan" : true,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 33
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "荣耀AK和UMP9三无号出价",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/e5315167-7e58-4abf-9c30-260d782a5c60.jpg"
+        ],
+        "price" : 700,
+        "cost" : 700,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "女",
+        "帐号绑定" : "密码邮箱，密保邮箱",
+        "商家在线" : "全天在线",
+        "描述" : "想要的朋友直接出价，合适爽快出了"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 2,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 0
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "绝地求生全明星黑帽面巾短裤号",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/d3c18900-5afe-42ce-9868-40dceb8302fa.jpg"
+        ],
+        "price" : 1300,
+        "cost" : 1300,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "男",
+        "帐号绑定" : "密码邮箱，密保邮箱",
+        "商家在线" : "全天在线"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 1,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 40
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "stean帐号",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/4/21/3872b868-9f56-4f17-b82c-40363567a206.jpg"
+        ],
+        "price" : 300,
+        "cost" : 300,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "男",
+        "帐号绑定" : "密码邮箱，密保邮箱",
+        "商家在线" : "全天在线",
+        "描述" : "现在要回国了  但是都是用美元回归不好用  现在想卖了  买了70个游戏   很多游戏都用  什么彩虹六号什么都有  大概花了1000块钱吧   还有的图就不发了，，然后自己弄了锁，但是找不到解锁码了，有能力拿走"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 0,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 0
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "160小时大量皮肤",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/4/21/3872b868-9f56-4f17-b82c-40363567a206.jpg"
+        ],
+        "price" : 70,
+        "cost" : 70,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "男",
+        "帐号绑定" : "密码邮箱",
+        "商家在线" : "全天在线"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 2,
+        "identMan" : true,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 50
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "看清楚三款游戏绝地被封介意勿买",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/13/0e6f9c49-e8e3-41b7-ba68-14edef249034.jpg"
+        ],
+        "price" : 100,
+        "cost" : 100,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "男",
+        "帐号绑定" : "密码邮箱，密保手机",
+        "商家在线" : "全天在线"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 2,
+        "identMan" : true,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 100
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "45小时鱼塘新号可以绑定国服",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/13/0e6f9c49-e8e3-41b7-ba68-14edef249034.jpg"
+        ],
+        "price" : 90,
+        "cost" : 90,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "男",
+        "帐号绑定" : "密码邮箱，密保手机",
+        "商家在线" : "全天在线"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 2,
+        "identMan" : true,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 100
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "三百小时绝地带GO游戏",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/13/7b29a6ba-2a68-482e-a717-f9b52e0991f5.jpg"
+        ],
+        "price" : 90,
+        "cost" : 90,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "女",
+        "帐号绑定" : "密码邮箱，密保手机",
+        "商家在线" : "全天在线",
+        "描述" : "看清楚是俩个游戏"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 1,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 100
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "7小时吃鸡小号出售",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/1215ae1d-0b0f-492b-8555-20fbfc90dc82.jpg"
+        ],
+        "price" : 70,
+        "cost" : 70,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "男",
+        "帐号绑定" : "密码邮箱",
+        "商家在线" : "全天在线",
+        "描述" : "小号不经常玩，卖了"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 1,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 67
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "封号包赔！ 亚服单排第一大哥",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/f6a7dbcb-af85-4c39-a773-a75eec9429c8.jpg"
+        ],
+        "price" : 10,
+        "cost" : 10,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "女",
+        "帐号绑定" : "无绑定",
+        "商家在线" : "全天在线",
+        "描述" : "xyz 最强 封号包赔  2月0拉闸"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 0,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 100
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "绝地求生游戏帐号",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/b03a300c-81e2-4bb2-b538-e7d0d5cd8e68.jpg"
+        ],
+        "price" : 50,
+        "cost" : 50,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "男",
+        "帐号绑定" : "无绑定",
+        "商家在线" : "全天在线",
+        "描述" : "还有H1Z1    PUBG体验服里面还有   稀有服饰"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 0,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 50
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "50小时新号",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/4c6f867a-8231-40f6-9915-9f7091290436.jpg"
+        ],
+        "price" : 50,
+        "cost" : 50,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "男",
+        "帐号绑定" : "密保手机,密保邮箱,密保QQ",
+        "商家在线" : "18点~24点"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 2,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 75
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "女朋友号不玩了便宜卖",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGqY/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/33c57bd6-6686-4001-a2b3-4913a36e50b8.jpg"
+        ],
+        "price" : 60,
+        "cost" : 60,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "女",
+        "帐号绑定" : "密保手机,密保邮箱",
+        "商家在线" : "6点~12点",
+        "描述" : "女友玩的没心态了 回lol坑人去了 便宜卖算了 红锅 枪皮肤 1万金币 看上拍"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 1,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 100
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "红围巾 大衣 加号 全部出",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/69d02831-9b71-43da-ad3e-796e238bc25f.jpg"
+        ],
+        "price" : 1500,
+        "cost" : 1500,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "女",
+        "帐号绑定" : "密保邮箱",
+        "商家在线" : "全天在线",
+        "描述" : "要的来 便宜卖"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 2,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 63
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "手贱上了锁红信号秒验收的来",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGqY/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/e273f1a2-7127-4d20-af18-89c56be88d0e.png"
+        ],
+        "price" : 45.55,
+        "cost" : 45.55,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "女",
+        "帐号绑定" : "密保邮箱",
+        "商家在线" : "全天在线",
+        "描述" : "最近很多骗号，找事的人，下单前请认真阅读以下事项，下单表示同意。 所卖的绝地求生帐号无封号记录，但是不知道绑定过国服没有，如果已经绑定国服资格就无法解绑的，其余的帐号信息已客服截图为准,请认真核实无误后是否确定需要购买。 交易流程：账号关闭令牌登录验证了，方便客服上号截图，账号也没有绑定手机的，下单购买后，自行要求客服帮助您先绑定手机号码，让客服利用手机号码接收验证码更换邮箱绑定跟密码。然后就交易"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 1,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 100
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "PUBG关闭个人交易，想要加紧",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGqY/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/ae0f3bf9-1671-4797-82c4-697ffe4898d8.jpg"
+        ],
+        "price" : 650,
+        "cost" : 650,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "女",
+        "帐号绑定" : "密保邮箱，密保手机",
+        "商家在线" : "全天在线",
+        "描述" : "有小白鞋有，军帽，裙子，如图的T恤，手套，加上98的账号，现在PUBG关闭了个人交易，三无号"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 2,
+        "identMan" : true,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 74
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "游戏内库存价值超过三百了解一下",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGqY/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/8d1039bf-1bd9-4fe2-899d-8a34e2893ac4.jpg"
+        ],
+        "price" : 118,
+        "cost" : 118,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "男",
+        "帐号绑定" : "密保邮箱",
+        "商家在线" : "全天在线",
+        "描述" : "scar皮肤市场均价110，重金属UMP9能卖30，金属S12K市场价20，另外有金色双喷，花uzi等等一系列枪皮肤，饰品也非常多，绝对超值的六百小时退游账号，零找回零风险诚信无敌实力至上。"
+    }
+}
+{
+    "letter" : "J",
+    "keyword" : "绝地求生（PUBG）",
+    "gameName" : "绝地求生（PUBG）",
+    "seller" : {
+        "stars" : 0,
+        "identMan" : false,
+        "identName" : true,
+        "guarantee" : true,
+        "sellRate" : 0
+    },
+    "infos" : {
+        "type" : "account",
+        "name" : "豹纹面巾 校服裤子 花衣服",
+        "img" : [ 
+            "https://static.jiaoyimao.com/o/gcmall/3tGrA/;;0,gcmall/g/resource/public/goodsinfo/2018/5/14/ed135298-0ae5-4001-a033-c9232900192e.jpg"
+        ],
+        "price" : 675,
+        "cost" : 675,
+        "sellCount" : 0,
+        "account" : "Steam帐号",
+        "server" : "通用服务器",
+        "OS" : "PC - PC端",
+        "tempNum" : 0
+    },
+    "detail" : {
+        "所属游戏" : "绝地求生（PUBG）",
+        "商品类型" : "Steam帐号",
+        "客户端" : "Steam官方客户端",
+        "服务器" : "通用服务器",
+        "性别" : "男",
+        "帐号绑定" : "密保邮箱",
+        "商家在线" : "全天在线",
+        "描述" : "豹纹面巾 一套衣服  还有很多箱子没开  校服裤子都有"
+    }
+}

@@ -9,6 +9,7 @@ class FootNav extends Component{
             <ul className="footnav" style={{'bottom':0}}>
                 <li><Link to="/">首页</Link></li>
                 <li><Link to="/signin">登录</Link></li>
+                <li><Link to="/redux">Redux</Link></li>
             </ul>
         );
     }

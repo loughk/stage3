@@ -8,6 +8,7 @@ import './lib/flexible.js';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import SignIn from './components/sign/signin.js';
+import TestReactRedux from './components/test_react_redux/test_react_redux.js';
 
 class Index extends Component{
     render(){
@@ -17,6 +18,7 @@ class Index extends Component{
                     <Switch>
                         <Route exact path="/" component={App}/>
                         <Route path="/signin" component={SignIn}/>
+                        <Route path="/redux" component={TestReactRedux}/>
                     </Switch>
                 </div>
             </Router>

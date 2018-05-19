@@ -55,7 +55,7 @@ Object.assign(ComponentDefaultProps.defaultProps,{'props3':'直接赋值会覆�
 let cmp1 = <ComponentFunctional props1="形参对象Object的属性1" props2="对象形参Object的属性2"/>;
 let cmp2 = <ComponentClass props1="实例对象属性props的属性1" props2="实例对象属性props的属性2"/>;
 export {
-    cmp1 as ComponentFunctional,
+    cmp1,
     cmp2 as ComponentClass,
     ComponentDefaultProps
 };

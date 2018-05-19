@@ -1,0 +1,6 @@
+生产:npm run dev。
+ajax二次封装:方便管理路径，回调函数。
+跨域测试:服务器代理,express + cors。
+
+上线:npm run build。
+因为用了webpack管理，在dist目录下打包好项目文件，然后就可以用服务器直接打开index.html。

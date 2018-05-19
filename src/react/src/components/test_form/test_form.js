@@ -20,7 +20,7 @@ class CmpForm extends Component{
     }
     render(){
         return (
-            <div>
+            <div class="container">
                 <h4>单向数据流;输入受控</h4>
                 <h4>input</h4>
                 <p><label>默认value属性-锁定状态</label><input type="text" value="锁定就改不了,而且不写readOnly会报warning" readOnly/></p>
